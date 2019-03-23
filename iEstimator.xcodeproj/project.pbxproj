@@ -12,6 +12,7 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		28860BE50F44EE6400985440 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28860BE40F44EE6400985440 /* CoreData.framework */; };
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		EF32D86F2246B54200A58740 /* README.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EF32D86E2246B54200A58740 /* README.rtf */; };
 		EF51324D12E612EE00028640 /* ValueController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF51322A12E612EE00028640 /* ValueController.m */; };
 		EF51324E12E612EE00028640 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EF51322C12E612EE00028640 /* Utilities.m */; };
 		EF51324F12E612EE00028640 /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = EF51322E12E612EE00028640 /* Team.m */; };
@@ -53,6 +54,7 @@
 		28A0AAE50D9B0CCF005BE974 /* iEstimator_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iEstimator_Prefix.pch; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* iEstimator-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iEstimator-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		EF32D86E2246B54200A58740 /* README.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = README.rtf; sourceTree = "<group>"; };
 		EF5131FD12E610D600028640 /* EstimationModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = EstimationModel.m; path = ../EstimationModel.m; sourceTree = "<group>"; };
 		EF5131FF12E610D600028640 /* EstimationModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EstimationModel.h; path = ../EstimationModel.h; sourceTree = "<group>"; };
 		EF51320012E610D600028640 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 			children = (
 				28A0AAE50D9B0CCF005BE974 /* iEstimator_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
+				EF32D86E2246B54200A58740 /* README.rtf */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				EF51329D12E6181A00028640 /* InfoViewController.xib in Resources */,
 				EF51329F12E6181E00028640 /* MainWindow.xib in Resources */,
 				EF5132AA12E6187F00028640 /* TeamViewController.xib in Resources */,
+				EF32D86F2246B54200A58740 /* README.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
