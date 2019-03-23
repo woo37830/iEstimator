@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* iEstimator */ = {
+		activeExec = 0;
+		executables = (
+			EF86B71912E5FD2A007B38D0 /* iEstimator */,
+		);
+	};
+	28A0AAE50D9B0CCF005BE974 /* iEstimator_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {612, 242}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 361}";
+			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = EF86B71912E5FD2A007B38D0 /* iEstimator */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* iEstimator */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* iEstimator */,
+		);
+		breakpoints = (
+			EF724CDD12F72B4800EBC42B /* FunctionPointController.m:135 */,
+		);
+		codeSenseManager = EF86B73212E5FD65007B38D0 /* Code sense */;
+		executables = (
+			EF86B71912E5FD2A007B38D0 /* iEstimator */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					419,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					382,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 321643247;
+			PBXWorkspaceStateSaveDate = 321643247;
+		};
+		perUserProjectItems = {
+			EF2189B912E8ED2C0023868D /* PlistBookmark */ = EF2189B912E8ED2C0023868D /* PlistBookmark */;
+			EF2189E012E8F2330023868D /* PBXTextBookmark */ = EF2189E012E8F2330023868D /* PBXTextBookmark */;
+			EF51321712E6118200028640 /* PBXBookmark */ = EF51321712E6118200028640 /* PBXBookmark */;
+			EF51321912E6118200028640 /* PBXTextBookmark */ = EF51321912E6118200028640 /* PBXTextBookmark */;
+			EF5132AE12E6188300028640 /* PBXTextBookmark */ = EF5132AE12E6188300028640 /* PBXTextBookmark */;
+			EF5132AF12E6188300028640 /* PBXTextBookmark */ = EF5132AF12E6188300028640 /* PBXTextBookmark */;
+			EF5132B012E6188300028640 /* PBXTextBookmark */ = EF5132B012E6188300028640 /* PBXTextBookmark */;
+			EF5132B412E6188300028640 /* PBXTextBookmark */ = EF5132B412E6188300028640 /* PBXTextBookmark */;
+			EF5132B612E6188300028640 /* PBXTextBookmark */ = EF5132B612E6188300028640 /* PBXTextBookmark */;
+			EF5132B712E6188300028640 /* PBXTextBookmark */ = EF5132B712E6188300028640 /* PBXTextBookmark */;
+			EF5132B812E6188300028640 /* PBXTextBookmark */ = EF5132B812E6188300028640 /* PBXTextBookmark */;
+			EF5132B912E6188300028640 /* PBXTextBookmark */ = EF5132B912E6188300028640 /* PBXTextBookmark */;
+			EF5132BA12E6188300028640 /* PBXTextBookmark */ = EF5132BA12E6188300028640 /* PBXTextBookmark */;
+			EF5132BB12E6188300028640 /* PBXTextBookmark */ = EF5132BB12E6188300028640 /* PBXTextBookmark */;
+			EF5132BC12E6188300028640 /* PBXTextBookmark */ = EF5132BC12E6188300028640 /* PBXTextBookmark */;
+			EF5132BD12E6188300028640 /* PBXTextBookmark */ = EF5132BD12E6188300028640 /* PBXTextBookmark */;
+			EF5132BF12E6188300028640 /* PBXTextBookmark */ = EF5132BF12E6188300028640 /* PBXTextBookmark */;
+			EF5132C112E6188300028640 /* PBXTextBookmark */ = EF5132C112E6188300028640 /* PBXTextBookmark */;
+			EF5132C412E6188300028640 /* PBXTextBookmark */ = EF5132C412E6188300028640 /* PBXTextBookmark */;
+			EF5132C512E6188300028640 /* PBXTextBookmark */ = EF5132C512E6188300028640 /* PBXTextBookmark */;
+			EF724CE112F72B4F00EBC42B /* PBXTextBookmark */ = EF724CE112F72B4F00EBC42B /* PBXTextBookmark */;
+			EF724CE312F72B4F00EBC42B /* PBXTextBookmark */ = EF724CE312F72B4F00EBC42B /* PBXTextBookmark */;
+			EF724CE412F72B4F00EBC42B /* PBXTextBookmark */ = EF724CE412F72B4F00EBC42B /* PBXTextBookmark */;
+			EF724D3612F7424400EBC42B /* PBXTextBookmark */ = EF724D3612F7424400EBC42B /* PBXTextBookmark */;
+			EF724D7812F74BEB00EBC42B /* PBXTextBookmark */ = EF724D7812F74BEB00EBC42B /* PBXTextBookmark */;
+			EF724D7912F74BEB00EBC42B /* PBXTextBookmark */ = EF724D7912F74BEB00EBC42B /* PBXTextBookmark */;
+			EF724DF512F89AB400EBC42B /* PBXTextBookmark */ = EF724DF512F89AB400EBC42B /* PBXTextBookmark */;
+			EFDA855D132BE44C00A2DC71 /* PBXTextBookmark */ = EFDA855D132BE44C00A2DC71 /* PBXTextBookmark */;
+			EFE1ABF0132196F600CD32E6 /* PBXTextBookmark */ = EFE1ABF0132196F600CD32E6 /* PBXTextBookmark */;
+			EFE1ABF1132196F600CD32E6 /* PBXTextBookmark */ = EFE1ABF1132196F600CD32E6 /* PBXTextBookmark */;
+			EFE1ABF3132196F600CD32E6 /* PBXTextBookmark */ = EFE1ABF3132196F600CD32E6 /* PBXTextBookmark */;
+			EFE760A613031E440044116F /* PBXTextBookmark */ = EFE760A613031E440044116F /* PBXTextBookmark */;
+		};
+		sourceControlManager = EF86B73112E5FD65007B38D0 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {665, 251}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 359}";
+		};
+	};
+	8D1107310486CEB800E47090 /* iEstimator-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{608, 320}, {750, 558}}";
+		};
+	};
+	EF2189B912E8ED2C0023868D /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* iEstimator-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			LSRequiresIPhoneOS,
+		);
+		name = "/Users/woo/Development/iPhone/iEstimator/iEstimator-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	EF2189E012E8F2330023868D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28A0AAE50D9B0CCF005BE974 /* iEstimator_Prefix.pch */;
+		name = "iEstimator_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 361;
+		vrLoc = 0;
+	};
+	EF5131FD12E610D600028640 /* EstimationModel.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {703, 5876}}";
+			sepNavSelRange = "{6567, 0}";
+			sepNavVisRange = "{6019, 820}";
+			sepNavWindowFrame = "{{575, 65}, {750, 558}}";
+		};
+	};
+	EF5131FE12E610D600028640 /* FunctionPointController.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = FunctionPointController.m;
+		path = /Users/woo/Development/Dropbox/iEstimator/FunctionPointController.m;
+		sourceTree = "<absolute>";
+	};
+	EF5131FF12E610D600028640 /* EstimationModel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {703, 1404}}";
+			sepNavSelRange = "{1195, 16}";
+			sepNavVisRange = "{1370, 957}";
+			sepNavWindowFrame = "{{107, 231}, {750, 558}}";
+		};
+	};
+	EF51320112E610D600028640 /* ProjectViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {655, 5616}}";
+			sepNavSelRange = "{13687, 0}";
+			sepNavVisRange = "{0, 895}";
+			sepNavWindowFrame = "{{634, 51}, {750, 558}}";
+		};
+	};
+	EF51320212E610D600028640 /* MainViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {703, 5577}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{9439, 1008}";
+			sepNavWindowFrame = "{{38, 294}, {750, 558}}";
+		};
+	};
+	EF51320312E610D600028640 /* MainViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {612, 1157}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 845}";
+		};
+	};
+	EF51320412E610D600028640 /* InfoViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {612, 1014}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 489}";
+			sepNavWindowFrame = "{{61, 273}, {750, 558}}";
+		};
+	};
+	EF51320512E610D600028640 /* InfoViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {612, 251}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 427}";
+			sepNavWindowFrame = "{{38, 294}, {750, 558}}";
+		};
+	};
+	EF51320912E610D600028640 /* TeamViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {612, 3874}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 429}";
+		};
+	};
+	EF51320A12E610D600028640 /* TeamViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {612, 468}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 503}";
+		};
+	};
+	EF51321712E6118200028640 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = EF86B77A12E606EE007B38D0 /* Icon.png */;
+	};
+	EF51321912E6118200028640 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 359;
+		vrLoc = 0;
+	};
+	EF51322A12E612EE00028640 /* ValueController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {451, 871}}";
+			sepNavSelRange = "{1325, 0}";
+			sepNavVisRange = "{1088, 242}";
+		};
+	};
+	EF51322C12E612EE00028640 /* Utilities.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {612, 2015}}";
+			sepNavSelRange = "{4022, 0}";
+			sepNavVisRange = "{3646, 512}";
+		};
+	};
+	EF51322D12E612EE00028640 /* Utilities.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {612, 546}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 386}";
+		};
+	};
+	EF51323112E612EE00028640 /* StringEditorViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {612, 1599}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 606}";
+		};
+	};
+	EF51323312E612EE00028640 /* Statistics.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {655, 1079}}";
+			sepNavSelRange = "{899, 0}";
+			sepNavVisRange = "{380, 926}";
+			sepNavWindowFrame = "{{84, 252}, {750, 558}}";
+		};
+	};
+	EF51323412E612EE00028640 /* Statistics.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {612, 351}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{135, 408}";
+		};
+	};
+	EF51323B12E612EE00028640 /* ProjectViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {703, 1027}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{2914, 932}";
+			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
+		};
+	};
+	EF51323C12E612EE00028640 /* Project.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {655, 4121}}";
+			sepNavSelRange = "{2745, 0}";
+			sepNavVisRange = "{2429, 1010}";
+			sepNavWindowFrame = "{{481, 296}, {750, 558}}";
+		};
+	};
+	EF51323D12E612EE00028640 /* Project.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {703, 975}}";
+			sepNavSelRange = "{184, 28}";
+			sepNavVisRange = "{509, 1312}";
+			sepNavWindowFrame = "{{84, 252}, {750, 558}}";
+		};
+	};
+	EF51323E12E612EE00028640 /* PickerViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {655, 5213}}";
+			sepNavSelRange = "{3205, 0}";
+			sepNavVisRange = "{2655, 730}";
+		};
+	};
+	EF51323F12E612EE00028640 /* PickerViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {655, 1040}}";
+			sepNavSelRange = "{2985, 0}";
+			sepNavVisRange = "{2452, 725}";
+		};
+	};
+	EF51324312E612EE00028640 /* MyCustomCell.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {612, 1859}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 840}";
+		};
+	};
+	EF51324412E612EE00028640 /* MyCustomCell.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {612, 897}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 840}";
+		};
+	};
+	EF51324512E612EE00028640 /* iEstimatorAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {612, 1183}}";
+			sepNavSelRange = "{232, 0}";
+			sepNavVisRange = "{89, 498}";
+		};
+	};
+	EF51324612E612EE00028640 /* iEstimatorAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {612, 299}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 345}";
+		};
+	};
+	EF51324812E612EE00028640 /* DateViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {645, 1443}}";
+			sepNavSelRange = "{2124, 0}";
+			sepNavVisRange = "{1894, 309}";
+		};
+	};
+	EF51324A12E612EE00028640 /* Constants.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {703, 949}}";
+			sepNavSelRange = "{196, 0}";
+			sepNavVisRange = "{0, 841}";
+			sepNavWindowFrame = "{{38, 294}, {750, 558}}";
+		};
+	};
+	EF5132AE12E6188300028640 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF51320912E610D600028640 /* TeamViewController.m */;
+		name = "TeamViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 429;
+		vrLoc = 0;
+	};
+	EF5132AF12E6188300028640 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF51320412E610D600028640 /* InfoViewController.m */;
+		name = "InfoViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 489;
+		vrLoc = 0;
+	};
+	EF5132B012E6188300028640 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF51320212E610D600028640 /* MainViewController.m */;
+		name = "MainViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 381;
+		vrLoc = 0;
+	};
+	EF5132B412E6188300028640 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF51320312E610D600028640 /* MainViewController.h */;
+		name = "MainViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 845;
+		vrLoc = 0;
+	};
+	EF5132B612E6188300028640 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF51320512E610D600028640 /* InfoViewController.h */;
+		name = "InfoViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 427;
+		vrLoc = 0;
+	};
+	EF5132B712E6188300028640 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF51323112E612EE00028640 /* StringEditorViewController.m */;
+		name = "StringEditorViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 606;
+		vrLoc = 0;
+	};
+	EF5132B812E6188300028640 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF51322A12E612EE00028640 /* ValueController.m */;
+		name = "ValueController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 504;
+		vrLoc = 0;
+	};
+	EF5132B912E6188300028640 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF51323B12E612EE00028640 /* ProjectViewController.h */;
+		name = "ProjectViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 844;
+		vrLoc = 0;
+	};
+	EF5132BA12E6188300028640 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF51320A12E610D600028640 /* TeamViewController.h */;
+		name = "TeamViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 503;
+		vrLoc = 0;
+	};
+	EF5132BB12E6188300028640 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF51324412E612EE00028640 /* MyCustomCell.h */;
+		name = "MyCustomCell.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 840;
+		vrLoc = 0;
+	};
+	EF5132BC12E6188300028640 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF51324312E612EE00028640 /* MyCustomCell.m */;
+		name = "MyCustomCell.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 840;
+		vrLoc = 0;
+	};
+	EF5132BD12E6188300028640 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF51323412E612EE00028640 /* Statistics.h */;
+		name = "Statistics.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 408;
+		vrLoc = 135;
+	};
+	EF5132BF12E6188300028640 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF51322D12E612EE00028640 /* Utilities.h */;
+		name = "Utilities.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 386;
+		vrLoc = 0;
+	};
+	EF5132C112E6188300028640 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF51322C12E612EE00028640 /* Utilities.m */;
+		name = "Utilities.m: 123";
+		rLen = 0;
+		rLoc = 4022;
+		rType = 0;
+		vrLen = 512;
+		vrLoc = 3646;
+	};
+	EF5132C412E6188300028640 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF51324612E612EE00028640 /* iEstimatorAppDelegate.h */;
+		name = "iEstimatorAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 345;
+		vrLoc = 0;
+	};
+	EF5132C512E6188300028640 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF51324512E612EE00028640 /* iEstimatorAppDelegate.m */;
+		name = "iEstimatorAppDelegate.m: 11";
+		rLen = 0;
+		rLoc = 232;
+		rType = 0;
+		vrLen = 498;
+		vrLoc = 89;
+	};
+	EF724CDD12F72B4800EBC42B /* FunctionPointController.m:135 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = EF5131FE12E610D600028640 /* FunctionPointController.m */;
+		functionName = "-updateView";
+		hitCount = 4;
+		ignoreCount = 0;
+		lineNumber = 135;
+		location = iEstimator;
+		modificationTime = 318188851.232769;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	EF724CE112F72B4F00EBC42B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF51323D12E612EE00028640 /* Project.h */;
+		name = "Project.h: 11";
+		rLen = 28;
+		rLoc = 184;
+		rType = 0;
+		vrLen = 318;
+		vrLoc = 0;
+	};
+	EF724CE312F72B4F00EBC42B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF51323C12E612EE00028640 /* Project.m */;
+		name = "Project.m: 128";
+		rLen = 0;
+		rLoc = 2745;
+		rType = 0;
+		vrLen = 1010;
+		vrLoc = 2429;
+	};
+	EF724CE412F72B4F00EBC42B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF51324A12E612EE00028640 /* Constants.h */;
+		name = "Constants.h: 65";
+		rLen = 15;
+		rLoc = 1702;
+		rType = 0;
+		vrLen = 915;
+		vrLoc = 871;
+	};
+	EF724D3612F7424400EBC42B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF51323F12E612EE00028640 /* PickerViewController.h */;
+		name = "PickerViewController.h: 70";
+		rLen = 0;
+		rLoc = 2985;
+		rType = 0;
+		vrLen = 725;
+		vrLoc = 2452;
+	};
+	EF724D7812F74BEB00EBC42B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF51323E12E612EE00028640 /* PickerViewController.m */;
+		name = "PickerViewController.m: 78";
+		rLen = 0;
+		rLoc = 3205;
+		rType = 0;
+		vrLen = 730;
+		vrLoc = 2655;
+	};
+	EF724D7912F74BEB00EBC42B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF5131FF12E610D600028640 /* EstimationModel.h */;
+		name = "EstimationModel.h: 91";
+		rLen = 11;
+		rLoc = 2342;
+		rType = 0;
+		vrLen = 1091;
+		vrLoc = 1606;
+	};
+	EF724DF512F89AB400EBC42B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF5131FD12E610D600028640 /* EstimationModel.m */;
+		name = "EstimationModel.m: 170";
+		rLen = 0;
+		rLoc = 5918;
+		rType = 0;
+		vrLen = 729;
+		vrLoc = 5750;
+	};
+	EF84F9711316A6EF00E03F56 /* EstimatorViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {609, 6630}}";
+			sepNavSelRange = "{13122, 0}";
+			sepNavVisRange = "{14898, 660}";
+		};
+	};
+	EF84F9721316A6EF00E03F56 /* EstimatorViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {609, 468}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{142, 875}";
+		};
+	};
+	EF86B71912E5FD2A007B38D0 /* iEstimator */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = iEstimator;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	EF86B73112E5FD65007B38D0 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = iEstimator;
+			};
+		};
+	};
+	EF86B73212E5FD65007B38D0 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	EFDA855D132BE44C00A2DC71 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF84F9711316A6EF00E03F56 /* EstimatorViewController.m */;
+		name = "EstimatorViewController.m: 434";
+		rLen = 0;
+		rLoc = 13122;
+		rType = 0;
+		vrLen = 660;
+		vrLoc = 14898;
+	};
+	EFE1ABF0132196F600CD32E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF51320112E610D600028640 /* ProjectViewController.m */;
+		name = "ProjectViewController.m: 430";
+		rLen = 0;
+		rLoc = 13687;
+		rType = 0;
+		vrLen = 895;
+		vrLoc = 0;
+	};
+	EFE1ABF1132196F600CD32E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF84F9721316A6EF00E03F56 /* EstimatorViewController.h */;
+		name = "EstimatorViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 875;
+		vrLoc = 142;
+	};
+	EFE1ABF3132196F600CD32E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF84F9711316A6EF00E03F56 /* EstimatorViewController.m */;
+		name = "EstimatorViewController.m: 434";
+		rLen = 0;
+		rLoc = 13122;
+		rType = 0;
+		vrLen = 660;
+		vrLoc = 14898;
+	};
+	EFE760A613031E440044116F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EF51323312E612EE00028640 /* Statistics.m */;
+		name = "Statistics.m: 41";
+		rLen = 0;
+		rLoc = 899;
+		rType = 0;
+		vrLen = 926;
+		vrLoc = 380;
+	};
+}
