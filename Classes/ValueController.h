@@ -12,6 +12,6 @@
 @interface ValueController : UIViewController {
 
 }
--(NSDate *)date;
--(NSString *)value;
+//-(NSDate *)date;
+//-(NSString *)value;
 @end

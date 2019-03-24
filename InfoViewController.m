@@ -58,7 +58,7 @@
 
 - (IBAction) openBrowser:(id)sender
 {
-    NSURL *target = [[NSURL alloc] initWithString:@"http://agilevets.com/iEstimator"];
+    NSURL *target = [[NSURL alloc] initWithString:@"http://jwooten37830.com/iEstimator"];
     [[UIApplication sharedApplication] openURL:target];
 }
 
