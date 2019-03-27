@@ -59,12 +59,14 @@
 	NSMutableDictionary     *projects;
 	UIViewController		*targetViewController;
 	InfoViewController		*infoViewController;
+    NSString *string;
 }
 
 @property (nonatomic, retain) UITableView *myTableView;
 @property (nonatomic, retain) UIBarButtonItem *addButtonItem;
 @property (nonatomic, retain) UIViewController *targetViewController;
 @property (nonatomic, retain) InfoViewController *infoViewController;
+
 
 - (void) applicationWillTerminate:(NSNotification *)notification;
 

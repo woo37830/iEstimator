@@ -51,5 +51,8 @@
     [super dealloc];
 }
 
+-(NSString *)value {
+    return value;
+}
 
 @end

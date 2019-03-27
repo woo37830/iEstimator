@@ -53,6 +53,8 @@ enum PageIndices
 	[[NSNotificationCenter defaultCenter] addObserver:self	selector:@selector(applicationWillTerminate:)
 												 name:UIApplicationWillTerminateNotification	object:app];
 	printf("\nmvc: subscribed to 'application will terminate notification'");
+    string = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"GitHash"];
+    printf("\nmvc: GitHash: %s",[string UTF8String]);
 	//NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
 	if( ![[NSFileManager defaultManager] fileExistsAtPath:[Utilities dataFilePath]] )
 	{

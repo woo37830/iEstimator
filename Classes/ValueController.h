@@ -10,8 +10,8 @@
 
 
 @interface ValueController : UIViewController {
-
+   NSString *value;
 }
 //-(NSDate *)date;
-//-(NSString *)value;
+-(NSString *)value;
 @end

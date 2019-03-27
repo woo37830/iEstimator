@@ -2,7 +2,7 @@
 #import "Constants.h"
 
 @implementation InfoViewController
-@synthesize	copyright, appName, helpText;
+@synthesize	copyright, appName, helpText, hashCode;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -40,10 +40,13 @@
 	
 	//appName.text = [self infoValueForKey:@"CFBundleName"];
 	//copyright.text = [self infoValueForKey:@"NSHumanReadableCopyright"];
-	appName.text = @"iEstimator\nv1.2";
+	appName.text = @"iEstimator - v1.2";
+    hashText =  [[[NSBundle mainBundle] infoDictionary] objectForKey:@"GitHash"];
+    printf("\nInfoViewController-hashCode.txt = %s\n",[hashText UTF8String]);
+    hashCode.text = hashText;
 	copyright.text = @"Copyright 2009, ShouldersCorp Inc.";
 	helpText.text = @"The iEstimator is used to estimate the duration in months of a software project.  The proposed begin, actual begin, actual cost to date, and other project items can be set.  In the Default Estimation Model, the metrics such as number of inputs, queries, etc. are set to estimates during the functional specifications.  If you are confident of your estimates then select that as the estimation Ability, also set your teams ability and other parameters.  Select the predominant language of the application or divide the application into several sub-projects.  The duration and its standard deviation based upon several thousand commercial projects with similar characteristics are provided.  Based upon the parameters, the number of person months, team size, and estimated costs are similarily provided.\nLater versions will add milestone predictions, risk alert graphics, and the ability to investigate changes in the team size taking schedule incompressibility into account.";
-}
+  }
 
 - (IBAction)dismissAction:(id)sender
 {
@@ -54,11 +57,13 @@
 - (void)viewDidAppear:(BOOL)animated
 {
 	// do something here as our view re-appears
+    printf("\nviewDidAppear: HashCode: %s",[hashCode.text UTF8String]);
 }
 
 - (IBAction) openBrowser:(id)sender
 {
-    NSURL *target = [[NSURL alloc] initWithString:@"http://jwooten37830.com/iEstimator"];
+    hashText = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"helpURL"];
+    NSURL *target = [[NSURL alloc] initWithString:hashText];
     [[UIApplication sharedApplication] openURL:target];
 }
 

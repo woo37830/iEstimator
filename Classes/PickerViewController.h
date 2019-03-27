@@ -67,12 +67,12 @@ Copyright (C) 2008 Apple Inc. All Rights Reserved.
 	UILabel				*segmentLabel;
 	NSArray				*theValues;
 	Boolean				editing;
-	int			selected;
+	long			selected;
 }
 
 - (id)initWithTitle:(NSString *)title andValues:(NSArray *)values withSelected:(NSString *)value;
 - (NSString *) value;
 - (void)addAction:(id)sender;
-- (int)selectedRow;
+- (long)selectedRow;
 
 @end
