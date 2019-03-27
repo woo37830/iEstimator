@@ -26,14 +26,14 @@
 		self.title = [project name];
 		self.menuList = [[NSMutableDictionary alloc] init];
 		targetViewController = nil;
-		printf("\nPvC init self");
+		printf("\nPvC init self\n");
 	}
 	myTableView = [[UITableView alloc] init];
     myTableView.delegate = self;
     myTableView.dataSource = self;
 	//printf("\nready to reload tableview data");
 	[myTableView reloadData];
-	printf("\nPvc completed initWithNibName");
+	printf("\nPvc completed initWithNibName\n");
 	return self;
 }
 
@@ -44,7 +44,7 @@
 - (void)dealloc
 {
 	[super dealloc];
-	printf("\nPvC dealloc");
+	printf("\nPvC dealloc\n");
 }
 
 // Automatically invoked after -loadView
@@ -61,7 +61,7 @@
 	self.navigationItem.rightBarButtonItem = addButton;
 	*/
 	editing = YES; // allows entering data via sub-views.
-	printf("\nPvC completed viewDidLoad");
+	printf("\nPvC completed viewDidLoad\n");
 }
 
 - (void)setEditing:(BOOL)edit animated:(BOOL)animated {
@@ -147,7 +147,7 @@
 }
 - (void)viewDidAppear:(BOOL)animated
 {
-	printf("\nPvC completed viewDidAppear");
+	printf("\nPvC completed viewDidAppear\n");
 }
 
 - (void) test	{
